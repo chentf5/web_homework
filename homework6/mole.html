@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Whac-a-mole</title>
+    <link rel="stylesheet" type="text/css" href="mole.css">
+    <script src="mole.js"></script>
+</head>
+
+<body>
+    <h1>Whac-a-mole</h1>
+    <p>Test your skill.How many boxes(moles)can you check(hit)in 30 seconds?</p>
+    <div id="layout">
+        <div id="screen">
+            <input type="button" id="start" value="Start Game|Stop Game">
+            <input type="text" id="tip">
+            <form>
+                Time:<input type="text" id="time" value="30"><br>
+                <br> Score:
+                <input type="text" id="score" value="0">
+            </form>
+
+        </div>
+    </div>
+    <div id="array">
+        <div class="hole"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div><div class="hole"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div><div class="hole"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div><div class="hole"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div><div class="hole"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div><div class="hole"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+
+    <p id="bottom">Instructions:</p>
+         <ol>
+            <li>Click on the radio buttons(moles) as they are selected randomly by the cpmputer.</li>
+            <li>1 point per hit,minus 1 point per miss</li>
+         </ol>
+</body>
+
+</html>

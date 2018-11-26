@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>fifteen puzzle</title>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>   
+	<script type="text/javascript" src="puzzle.js"></script>
+	<link rel="stylesheet" type="text/css" href="puzzle.css" />  
+</head>
+<body>
+	 <h1>拼图游戏</h1>
+	 <p id="display">Are you Ready?</p>
+	 <div id="middle">
+		<div id="panda"></div>
+		<form id="level">
+			<input type="radio" name="lev" value="100" checked="true">simple
+			<input type="radio" name="lev" value="500">middle
+			<input type="radio" name="lev" value="1000">difficult
+		</form>
+		<div id="bu"><button id="reset">重新开始</button>
+		<button id="see">查看原图</button></div>
+		
+	 </div>
+</body>
+</html>

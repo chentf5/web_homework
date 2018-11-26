@@ -1,0 +1,96 @@
+
+
+body{
+	font-family: Agency FB;
+	text-align: center;
+}
+#tip1	{
+	height: 130px;
+}
+#reset	{
+	display: none;
+	height: 20px;
+	width: 100px;
+	border-radius: 15%;
+}
+#outlay	{
+	width: 500px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#maze	{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	background-color: #EEEEEE;
+}
+#left,#leftup,#up,#rightup,#right {
+	background-color: #fff;
+	border: 0px solid black;
+}
+#left{
+	height: 50px;
+	width: 200px;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+}
+#leftup	{
+	height: 150px;
+	width: 50px;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+}
+#up {
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	left: 200px;
+}
+#rightup {
+	height: 150px;
+	width: 50px;
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	
+}
+#right {
+	height: 50px;
+	width: 200px;
+	
+	position: absolute;
+	top: 200px;
+	left: 300px;
+}
+#object {
+	height: 35px;
+	width: 33px;
+	position: absolute;
+	top: 205px;
+	left: 1px;
+	background-color: green;
+	border: 1px solid black;
+}
+#object p {
+	position: absolute;
+	top: -22px;
+	left: 15px;
+	font-size: 20pt;
+}
+#down	{
+	margin-left: auto;
+	margin-right: auto;
+	height: 25px;
+	width:100px;
+	background-color:#EEEEEE;
+	border: 1px solid black;
+}
+#tip {
+	color: black;
+	font-weight: bold;
+	font-size: 15pt;
+}

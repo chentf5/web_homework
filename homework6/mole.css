@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+}
+
+#layout {
+    height: 80px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#screen {
+    position: relative;
+    top: 0px;
+    height: 80px;
+    width: 400px;
+}
+
+#start {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 20px;
+    width: 150px;
+}
+
+#tip {
+    position: absolute;
+    top: 40px;
+    left: 12px;
+    height: 15px;
+    width: 100px;
+}
+
+#time {
+    position: absolute;
+    top: 3px;
+    left: 225px;
+    height: 11px;
+    width: 28px;
+}
+
+#score {
+    position: absolute;
+    top: 38px;
+    left: 230px;
+    height: 11px;
+    width: 32px;
+}
+
+#array {
+    position: relative;
+    height: 150px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 75px;
+    padding-top: 50px;
+}
+
+.hole {
+    margin-bottom: 10px;
+}
+
+.hole div {
+    display: inline-block;
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#bottom,ol {
+    text-align: left;
+    margin-left: 150px;
+}

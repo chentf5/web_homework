@@ -1,0 +1,266 @@
+
+
+/*info*/
+#at-plus-container {
+	width: 180px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bottom-positioner {
+	position: absolute;
+	bottom: 0;
+	width: 180px;
+}
+
+#button:hover {
+	width: 300px;
+	height: 300px;
+}
+#info {
+	display: inline-block;
+}
+#info-bar {
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	opacity: 0;
+	border-radius: 50%;
+	background-color: #666;
+	padding: 10px;
+	margin: 0px auto;
+	width: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease-out 250ms;
+}
+
+#button:hover #info-bar{
+	position: absolute;
+	bottom: 156px;
+    left: 22%;
+	opacity: 1;
+	border-radius: 50%;
+	background-color: #666;
+
+	width: 125px;
+	height: 125px;
+	padding: 10px;
+	margin: 0px auto;
+}
+
+ul {
+	list-style-type:none;
+}
+
+.page span{
+	color: white;
+	float: right;
+}
+
+.user {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top :20px;
+	left: 50px;
+	right: 50px;
+}
+
+.comment {
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	top :60px;
+	left: 40px;
+	
+}
+
+.comment span{
+	font-size: 30px;
+	position: absolute;
+	top:-10px;
+	right: 0px;
+}
+
+.comment img {
+	height: 60%
+}
+
+.mine span{
+	color: #079E6E;
+	position: absolute;
+	right: 0px;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.posted{
+	position:absolute;
+	top: 100px;
+	left: 30px;
+	width:40px;
+}
+
+.like{
+	position:absolute;
+	top: 100px;
+	right: 30px;
+	width: 40px;
+}
+
+.mask{
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	opacity: 0;
+	transition: all 0.5s ease-out 250ms;
+}
+
+#button:hover .mask {
+	opacity: 1;
+	position: absolute;
+       left: 12%;
+    bottom: 141px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: url('./assets/images/nomask.png') no-repeat 50% 50% #666;
+}
+
+.history {
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	opacity: 0;
+	transition: all 0.5s ease-out 250ms;
+}
+
+#button:hover .history  {
+	opacity: 1;
+	position: absolute;
+    left: 3%;
+    bottom: 100px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: url('./assets/images/history.png') no-repeat 50% 50% #666;
+}
+
+.message {
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	opacity: 0;
+	transition: all 0.5s ease-out 250ms;
+}
+
+#button:hover .message{
+	opacity: 1;
+	position: absolute;
+	left: 13%;
+    bottom: 53px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: url('./assets/images/message.png') no-repeat 50% 50% #666;
+}
+
+.unread {
+	display: inline-block;
+	border-radius: 50%;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	text-align: center;
+	float: right;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.setting {
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	opacity: 0;
+	transition: all 0.5s ease-out 250ms;
+}
+
+#button:hover .setting{
+	opacity: 1;
+	position: absolute;
+	    left: 36%;
+    bottom: 21px;
+	border-radius: 50%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: url('./assets/images/setting.png') no-repeat 50% 50% #666;
+}
+
+.sign {
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	opacity: 0;
+	transition: all 0.5s ease-out 250ms;
+}
+
+#button:hover .sign {
+	opacity: 1;
+	position: absolute;
+	left: 64%;
+    bottom: 21px;
+	border-radius: 50%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: url('./assets/images/signout.png') no-repeat 50% 50% #666;
+}
+
+/*icon*/
+.apb {
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	background: url('./assets/images/atplus_white.png') no-repeat 50% 50%;
+	background-color: rgba(48, 63, 159, 1);
+	opacity: 0.5;
+	transition-delay: 0.5s;
+	transition-duration: 0.5s;
+	background-size: 20px;
+}
+
+#button:hover .apb {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: url('./assets/images/atplus_green.png') no-repeat 50% 50%;
+	background-color: rgba(48, 63, 159, 1);
+	background-size: 30px;
+	transform: scale(1.5);
+	
+	transition-delay: 0.5s;
+    opacity: 1;
+}
